@@ -4864,6 +4864,16 @@ table {
   gap: var(--space-3);
 }
 
+.reservation-embed {
+  width: 100%;
+  max-width: 100%;
+}
+
+.reservation-embed iframe {
+  display: block;
+  width: 100%;
+}
+
 .reservation-placeholder,
 .map-placeholder,
 .placeholder-img {
