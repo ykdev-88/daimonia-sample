@@ -368,10 +368,18 @@
     <section class="section">
       <div class="container">
         <div class="home-section-label"><p>RESERVATION</p><h2>ご予約</h2></div>
-        <div class="reservation-placeholder">
-      予約システム（準備中）
+        <div class="reservation-embed">
+      <!-- Lastera 埋め込み: 予約カレンダー -->
+      <iframe
+        src="https://lastera.net/shop-fkn3lnwa/embed/calendar"
+        title="予約カレンダー"
+        width="100%"
+        height="560"
+        style="border:0;border-radius:12px;max-width:100%;"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
     </div>
-    <!-- TODO: 外部予約システム稼働後にiframeまたは埋め込みコードに差し替え -->
         <p class="reservation-fallback"><a href="../contact/" class="btn btn--outline">お問い合わせフォームから予約する</a></p>
       </div>
     </section>
