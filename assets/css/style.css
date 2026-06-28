@@ -2246,6 +2246,14 @@ table {
   letter-spacing: -0.02em;
 }
 
+.space-equipment-item__icon--placeholder {
+  background-color: #f5f5f3;
+}
+
+.space-equipment-item__icon--placeholder img {
+  opacity: 0.85;
+}
+
 .space-equipment-item__label {
   color: var(--color-text-heading);
   font-size: var(--font-size-xs);
@@ -2280,6 +2288,14 @@ table {
   background-color: var(--color-bg-soft);
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius-xl);
+}
+
+.space-price-item--single {
+  text-align: center;
+}
+
+.space-price-item--single p {
+  margin-top: 0;
 }
 
 .space-price-item h3 {
@@ -2693,6 +2709,15 @@ table {
   gap: var(--space-5);
 }
 
+.yomogi-menu-grid--single {
+  max-width: 22rem;
+  margin-inline: auto;
+}
+
+.yomogi-menu-grid--single .yomogi-price-card {
+  text-align: center;
+}
+
 .yomogi-price-card {
   padding: var(--space-6);
   background-color: var(--color-bg-white);
@@ -2840,8 +2865,7 @@ table {
     grid-template-columns: minmax(0, 1fr) 260px;
   }
 
-  .yomogi-feature-grid,
-  .yomogi-menu-grid {
+  .yomogi-feature-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
